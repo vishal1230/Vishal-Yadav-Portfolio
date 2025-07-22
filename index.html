@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishal Yadav - Full Stack Developer & Data Science Enthusiast</title>
+    
+    <!-- Enhanced Favicon Setup -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets\images\vishal_profile_pic-modified.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets\images\vishal_profile_pic-modified.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets\images\vishal_profile_pic-modified.png">
+    <link rel="shortcut icon" href="assets\images\vishal_profile_pic-modified.png">
+    
+    <!-- Meta Tags -->
+    <meta name="description" content="Vishal Yadav - Full Stack Developer and Data Science Enthusiast with expertise in React.js, Node.js, Python, and modern web technologies.">
+    <meta name="keywords" content="Full Stack Developer, Data Science, React, Node.js, Python, Web Development">
+    <meta name="author" content="Vishal Yadav">
+    
+    <!-- External Resources -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- EmailJS SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <!-- Enhanced Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="assets\images\vishal_profile_pic-modified.png" alt="Vishal Yadav" class="nav-profile-img">
+                <a href="#home">Vishal Yadav</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link"><i class="fas fa-home"></i> Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link"><i class="fas fa-user"></i> About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link"><i class="fas fa-cogs"></i> Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link"><i class="fas fa-laptop-code"></i> Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> Contact</a>
+                </li>
+            </ul>
+            <div class="nav-cta">
+                <a href="assets\documents\vishal_new_resume (1).pdf" class="btn-download" download>
+                    <i class="fas fa-download"></i> Resume
+                </a>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Enhanced Hero Section -->
+    <section id="home" class="hero">
+        <!-- Background Elements -->
+        <div class="hero-bg">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+                <div class="shape shape-5"></div>
+            </div>
+            <div class="gradient-overlay"></div>
+        </div>
+        
+        <div class="hero-content">
+            <!-- Profile Section -->
+            <div class="hero-profile">
+                <div class="profile-container">
+                    <div class="profile-image-wrapper">
+                        <img src="assets\images\vishal_profile_pic-modified.png" alt="Vishal Yadav" class="profile-image">
+                        <div class="profile-ring"></div>
+                        <div class="profile-glow"></div>
+                    </div>
+                    <div class="status-badge">
+                        <div class="status-dot"></div>
+                        Available for work
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hero Text -->
+            <div class="hero-text">
+                <div class="hero-greeting">Hello, I'm</div>
+                <h1 class="hero-title">
+                    <span class="name-highlight">Vishal Yadav</span>
+                </h1>
+                <div class="hero-subtitle-container">
+                    <span class="hero-subtitle" id="dynamic-text"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <p class="hero-description">
+                    B.Tech Computer Science & Data Science student at JSS Academy of Technical Education 
+                    with <strong>8.77 CGPA</strong> and <strong>3rd rank</strong> in department. Passionate about 
+                    building scalable applications and solving complex problems.
+                </p>
+
+                <!-- Stats -->
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="200">0</div>
+                        <div class="stat-label">Problems Solved</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">8.77</div>
+                        <div class="stat-label">CGPA</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">3</div>
+                        <div class="stat-label">Department Rank</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="15">0</div>
+                        <div class="stat-label">Projects Built</div>
+                    </div>
+                </div>
+
+                <!-- Action Buttons -->
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i>
+                        <span>View My Work</span>
+                    </a>
+                    <a href="assets\documents\vishal_new_resume (1).pdf" class="btn btn-secondary" download>
+                        <i class="fas fa-download"></i>
+                        <span>Download Resume</span>
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <i class="fas fa-paper-plane"></i>
+                        <span>Let's Talk</span>
+                    </a>
+                </div>
+
+                <!-- Enhanced Social Links -->
+                <div class="social-links">
+                    <a href="https://github.com/vishal1230" target="_blank" class="social-link github">
+                        <i class="fab fa-github"></i>
+                        <span class="tooltip">GitHub</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/vishal-yadav-35b027281/" target="_blank" class="social-link linkedin">
+                        <i class="fab fa-linkedin"></i>
+                        <span class="tooltip">LinkedIn</span>
+                    </a>
+                    <a href="https://leetcode.com/u/vi9678/" target="_blank" class="social-link leetcode">
+                        <i class="fas fa-code"></i>
+                        <span class="tooltip">LeetCode</span>
+                    </a>
+                    <a href="mailto:vishal04032003@gmail.com" class="social-link email">
+                        <i class="fas fa-envelope"></i>
+                        <span class="tooltip">Email</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+            <div class="scroll-text">Scroll Down</div>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Enhanced About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">01</span>
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know more about my background and journey</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-left">
+                    <div class="about-image">
+                        <img src="assets/images/profile.jpg" alt="Vishal Yadav">
+                        <div class="image-decoration"></div>
+                    </div>
+                </div>
+                
+                <div class="about-right">
+                    <div class="about-text">
+                        <h3>Full Stack Developer & Data Science Enthusiast</h3>
+                        <p>
+                            I'm currently pursuing B.Tech in Computer Science & Engineering with specialization 
+                            in Data Science at JSS Academy of Technical Education, Noida. With a strong academic 
+                            record of <strong>8.77 CGPA</strong> and <strong>3rd rank</strong> in my department, 
+                            I'm passionate about creating innovative solutions.
+                        </p>
+                        <p>
+                            My expertise spans across modern web technologies including React.js, Node.js, Python, 
+                            and cloud platforms. I've successfully built multiple full-stack applications and 
+                            solved over 200+ coding problems across various platforms.
+                        </p>
+                        
+                        <div class="about-highlights">
+                            <div class="highlight-item">
+                                <i class="fas fa-graduation-cap"></i>
+                                <div>
+                                    <strong>Education Excellence</strong>
+                                    <span>CGPA: 8.77/10.00, Rank: 3rd/120</span>
+                                </div>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-code"></i>
+                                <div>
+                                    <strong>Problem Solving</strong>
+                                    <span>200+ coding problems solved</span>
+                                </div>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-trophy"></i>
+                                <div>
+                                    <strong>Sports Achievements</strong>
+                                    <span>Gold Medal (400m), Silver Medal (4x100m Relay)</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="about-cta">
+                            <a href="assets\documents\vishal_new_resume (1).pdf" class="btn btn-primary" download>
+                                <i class="fas fa-download"></i> Download Resume
+                            </a>
+                            <a href="#contact" class="btn btn-outline">
+                                <i class="fas fa-paper-plane"></i> Get In Touch
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education Timeline -->
+            <div class="education-section">
+                <h3><i class="fas fa-graduation-cap"></i> Education Journey</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2022 - 2026</div>
+                        <div class="timeline-content">
+                            <h4>B.Tech in Computer Science & Engineering (Data Science)</h4>
+                            <p>JSS Academy of Technical Education, Noida</p>
+                            <div class="timeline-meta">
+                                <span class="grade">CGPA: 8.77/10.00</span>
+                                <span class="rank">Rank: 3rd/120</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2019 - 2021</div>
+                        <div class="timeline-content">
+                            <h4>Senior Secondary Education</h4>
+                            <p>Shiv Jyoti Senior Secondary School, Kota</p>
+                            <div class="timeline-meta">
+                                <span class="grade">87%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2017 - 2019</div>
+                        <div class="timeline-content">
+                            <h4>Secondary School</h4>
+                            <p>Guru Nanak Public School, Prayagraj</p>
+                            <div class="timeline-meta">
+                                <span class="grade">93%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enhanced Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">02</span>
+                <h2 class="section-title">Technical Skills</h2>
+                <p class="section-subtitle">Technologies and tools I work with</p>
+            </div>
+            
+            <div class="skills-grid">
+                <div class="skill-category" data-category="languages">
+                    <div class="category-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Programming Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag" data-level="90">C/C++</span>
+                        <span class="skill-tag" data-level="95">Python</span>
+                        <span class="skill-tag" data-level="90">JavaScript</span>
+                        <span class="skill-tag" data-level="85">Java</span>
+                        <span class="skill-tag" data-level="85">SQL</span>
+                        <span class="skill-tag" data-level="95">HTML</span>
+                        <span class="skill-tag" data-level="90">CSS</span>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-category="frameworks">
+                    <div class="category-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h3>Frameworks & Libraries</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag" data-level="90">React.js</span>
+                        <span class="skill-tag" data-level="85">Node.js</span>
+                        <span class="skill-tag" data-level="85">Express.js</span>
+                        <span class="skill-tag" data-level="95">TailwindCSS</span>
+                        <span class="skill-tag" data-level="80">Redux</span>
+                        <span class="skill-tag" data-level="75">Sequelize</span>
+                        <span class="skill-tag" data-level="80">Mongoose</span>
+                        <span class="skill-tag" data-level="85">Bootstrap</span>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-category="databases">
+                    <div class="category-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Databases</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag" data-level="85">MongoDB</span>
+                        <span class="skill-tag" data-level="80">MySQL</span>
+                        <span class="skill-tag" data-level="75">PostgreSQL</span>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-category="tools">
+                    <div class="category-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Cloud & Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag" data-level="90">Git</span>
+                        <span class="skill-tag" data-level="80">Docker</span>
+                        <span class="skill-tag" data-level="75">AWS</span>
+                        <span class="skill-tag" data-level="70">Google Cloud</span>
+                        <span class="skill-tag" data-level="85">Firebase</span>
+                        <span class="skill-tag" data-level="70">Jenkins</span>
+                        <span class="skill-tag" data-level="70">Kubernetes</span>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-category="concepts">
+                    <div class="category-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Concepts</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag" data-level="90">REST APIs</span>
+                        <span class="skill-tag" data-level="80">Microservices</span>
+                        <span class="skill-tag" data-level="85">WebSocket</span>
+                        <span class="skill-tag" data-level="80">CI/CD</span>
+                        <span class="skill-tag" data-level="85">TDD</span>
+                        <span class="skill-tag" data-level="90">OOP</span>
+                        <span class="skill-tag" data-level="85">System Design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enhanced Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">03</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Some of my recent work and achievements</p>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card featured">
+                    <div class="project-image">
+                        <img src="assets\images\ipl-api.png" alt="IPL Stats API" loading="lazy">
+                        <div class="project-overlay">
+                            <a href="https://github.com/vishal1230/ipl-flask-api" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <div class="project-meta">
+                                <span class="project-status featured">Featured</span>
+                                <span class="project-date">April 2025</span>
+                            </div>
+                            <h3>IPL Stats API - Cricket Analytics</h3>
+                        </div>
+                        <p class="project-description">
+                            A comprehensive Flask-based REST API with 50+ endpoints serving cricket analytics 
+                            to 200+ unique users. Processes over 500,000 match records with optimized performance 
+                            and intelligent caching systems.
+                        </p>
+                        <div class="project-highlights">
+                            <div class="highlight">
+                                <i class="fas fa-chart-line"></i>
+                                <span>35% performance improvement</span>
+                            </div>
+                            <div class="highlight">
+                                <i class="fas fa-users"></i>
+                                <span>200+ active users</span>
+                            </div>
+                            <div class="highlight">
+                                <i class="fas fa-database"></i>
+                                <span>500K+ records processed</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">NumPy</span>
+                            <span class="tech-tag">REST API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets\images\societal.jpg" alt="Societal Platform" loading="lazy">
+                        <div class="project-overlay">
+                            <a href="https://github.com/vishal1230/Societal" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <div class="project-meta">
+                                <span class="project-date">Jan 2025 – Feb 2025</span>
+                            </div>
+                            <h3>Societal - Social Media Platform</h3>
+                        </div>
+                        <p class="project-description">
+                            A full-stack social media platform with OTP authentication, real-time messaging, 
+                            role-based access control, and responsive design for seamless user experience.
+                        </p>
+                        <div class="project-highlights">
+                            <div class="highlight">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>Secure OTP Authentication</span>
+                            </div>
+                            <div class="highlight">
+                                <i class="fas fa-comments"></i>
+                                <span>Real-time messaging</span>
+                            </div>
+                            <div class="highlight">
+                                <i class="fas fa-chart-line"></i>
+                                <span>40% engagement increase</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">React.js</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">TailwindCSS</span>
+                            <span class="tech-tag">Cloudinary</span>
+                            <span class="tech-tag">WebSocket</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets\images\swigato.jpg" alt="Swigato Food App" loading="lazy">
+                        <div class="project-overlay">
+                            <a href="https://github.com/vishal1230" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <div class="project-meta">
+                                <span class="project-date">Nov 2024 – Dec 2024</span>
+                            </div>
+                            <h3>Swigato - Food Ordering Platform</h3>
+                        </div>
+                        <p class="project-description">
+                            A modern food ordering website managing 200+ restaurant menus with AI-powered 
+                            personalized recommendations and seamless payment integration.
+                        </p>
+                        <div class="project-highlights">
+                            <div class="highlight">
+                                <i class="fas fa-robot"></i>
+                                <span>AI-powered recommendations</span>
+                            </div>
+                            <div class="highlight">
+                                <i class="fas fa-store"></i>
+                                <span>200+ restaurant menus</span>
+                            </div>
+                            <div class="highlight">
+                                <i class="fas fa-mobile-alt"></i>
+                                <span>Responsive design</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">React.js</span>
+                            <span class="tech-tag">Redux</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">OpenAI API</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projects-cta">
+                <p>Want to see more of my work?</p>
+                <a href="https://github.com/vishal1230" target="_blank" class="btn btn-primary">
+                    <i class="fab fa-github"></i> View All Projects
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enhanced Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">04</span>
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's discuss opportunities and build something amazing together</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <h3>Let's Start a Conversation</h3>
+                        <p>
+                            I'm always excited to discuss new opportunities, innovative projects, 
+                            and potential collaborations. Whether you have a project in mind or 
+                            just want to connect, I'd love to hear from you!
+                        </p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <span class="label">Email</span>
+                                    <a href="mailto:vishal04032003@gmail.com">vishal04032003@gmail.com</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <span class="label">Phone</span>
+                                    <a href="tel:+916392026177">+91 6392026177</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <span class="label">Location</span>
+                                    <span>Noida, India</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-links">
+                            <a href="https://github.com/vishal1230" target="_blank" class="social-link">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/vishal-yadav-35b027281/" target="_blank" class="social-link">
+                                <i class="fab fa-linkedin"></i>
+                                <span>LinkedIn</span>
+                            </a>
+                            <a href="https://leetcode.com/u/vi9678/" target="_blank" class="social-link">
+                                <i class="fas fa-code"></i>
+                                <span>LeetCode</span>
+                            </a>
+                        </div>
+
+                        <div class="availability">
+                            <div class="status-indicator">
+                                <div class="status-dot"></div>
+                                <span>Available for freelance work</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-section">
+                    <div class="contact-form">
+                        <h3>Send me a message</h3>
+                        <form id="contactForm">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="name">Name *</label>
+                                    <input type="text" id="name" name="name" placeholder="Your full name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email *</label>
+                                    <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Subject *</label>
+                                <input type="text" id="subject" name="subject" placeholder="What's this about?" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" rows="6" placeholder="Tell me about your project or inquiry..." required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-full">
+                                <i class="fas fa-paper-plane"></i>
+                                <span>Send Message</span>
+                                <div class="btn-loader" style="display: none;">
+                                    <i class="fas fa-spinner fa-spin"></i>
+                                </div>
+                            </button>
+                        </form>
+                        
+                        <div class="form-status" id="form-status"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enhanced Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="footer-logo">
+                        <img src="assets/images/profile.jpg" alt="Vishal Yadav">
+                        <span>Vishal Yadav</span>
+                    </div>
+                    <p>Full Stack Developer & Data Science Enthusiast</p>
+                </div>
+                
+                <div class="footer-right">
+                    <div class="footer-links">
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                    <div class="footer-social">
+                        <a href="https://github.com/vishal1230" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/vishal-yadav-35b027281/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://leetcode.com/u/vi9678/" target="_blank"><i class="fas fa-code"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Vishal Yadav. All rights reserved. Built with ❤️ and lots of ☕</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
