@@ -3,7 +3,7 @@
 A modern, responsive portfolio website showcasing my skills as a Full Stack Developer and Data Science Enthusiast.
 
 ## 🚀 Live Demo
-[View Portfolio](https://your-portfolio-url.netlify.app)
+[View Portfolio](https://vishal-portfolio-04.netlify.app/)
 
 ## 🛠️ Technologies Used
 - HTML5
@@ -30,9 +30,9 @@ A modern, responsive portfolio website showcasing my skills as a Full Stack Deve
 - Contact form with validation
 
 ## 🤝 Connect With Me
-- LinkedIn: [https://www.linkedin.com/in/vishal-yadav-35b027281/]
-- GitHub: [https://github.com/vishal1230]
-- Email: vishal04032003@gmail.com
+- [LinkedIn](https://www.linkedin.com/in/vishal-yadav-35b027281/)
+- [GitHub](https://github.com/vishal1230)
+- [Email](vishal04032003@gmail.com)
 
 ## 📄 License
 This project is open source and available under the [MIT License](LICENSE).
