@@ -100,10 +100,10 @@
         if (!dynamicText) return;
 
         const texts = [
-            'Full Stack Developer',
-            'Data Science Enthusiast', 
-            'Problem Solver',
-            'Tech Innovator'
+            'Software Engineer',
+            'Python & React Developer',
+            'GenAI / LLM App Builder',
+            'Problem Solver'
         ];
         
         let textIndex = 0;
